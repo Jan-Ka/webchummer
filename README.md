@@ -1,2 +1,4 @@
 # webchummer
-A character generator compatible with Shadowrun
+A Shadowrun compatible Character Generator running in your browser
+
+

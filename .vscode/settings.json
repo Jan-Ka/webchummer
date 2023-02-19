@@ -10,5 +10,8 @@
     },
     "[scss]": {
         "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode"
     } // optional but recommended
 }

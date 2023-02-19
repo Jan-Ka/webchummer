@@ -87,6 +87,8 @@ and ["Triton head icon"](https://game-icons.net/1x1/lorc/triton-head.html) by [L
 
 The "`webchummer` Logo" is licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) by [Jan-Ka](https://github.com/Jan-Ka).
 
+The wordlogo `webchummer`, and other elements of the application, use the Font ["Zen Dots"](https://github.com/fontsource/fontsource/tree/main/fonts/google/zen-dots) by Yoshimichi Ohira, under [OFL](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL). 
+
 ## Acknowledgements
 
 > [dec0dOS/amazing-github-template](https://github.com/dec0dOS/amazing-github-template) for a nice readme template

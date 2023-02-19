@@ -18,6 +18,11 @@ A Shadowrun compatible Character Generator running in your browser
 
 - [webchummer](#webchummer)
   - [About](#about)
+    - [Built With](#built-with)
+  - [Getting Started](#getting-started)
+    - [Developing](#developing)
+    - [Distributing](#distributing)
+    - [Using](#using)
   - [Roadmap](#roadmap)
   - [Authors \& contributors](#authors--contributors)
   - [License](#license)
@@ -32,6 +37,37 @@ A Shadowrun compatible Character Generator running in your browser
 > Old games deserve new Tools. And when fixing the established applications is no longer trivial, something new should take its place.  
 > `webchummer` strives to become the one-stop-shop for all your Shadowrun compatible Character Generation needs.  
 > Not a mean spirited rewrite but a gentle reinvention of a cherished thing.
+
+### Built With
+
+- [SvelteKit](https://kit.svelte.dev/)
+
+## Getting Started
+
+### Developing
+
+If you are running [Visual Studio Code](https://code.visualstudio.com/) you can leverage the `.devcontainer` we have prepared for you. It contains all tools necessary to start working on `webchummer`
+
+- Run `npm i` to have the package manager retrieve all necessary data
+- Start coding and see the app through
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+### Distributing
+
+To create a production package of `webchummer` run 
+
+```bash
+npm run build
+```
+
+### Using
+
+TBD
 
 ## Roadmap
 Please see https://github.com/Jan-Ka/webchummer/issues/3

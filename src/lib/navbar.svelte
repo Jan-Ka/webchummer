@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Logo from '../assets/webchummer_logo.min.svg';
-	import { sidebarOpen } from '../stores/stores';
+	import { hasSidebar, sidebarOpen } from '../stores/stores';
 </script>
 
 <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
@@ -14,16 +14,18 @@
 		/>
 		<span class="appname">webchummer</span></a
 	>
-	<button
-		class="navbar-toggler position-absolute d-md-none collapsed"
-		type="button"
-		on:click={sidebarOpen.toggle}
-		aria-controls="sidebarMenu"
-		aria-expanded="false"
-		aria-label="Toggle navigation"
-	>
-		<span class="navbar-toggler-icon" />
-	</button>
+	{#if $hasSidebar}
+		<button
+			class="navbar-toggler position-absolute d-md-none collapsed"
+			type="button"
+			on:click={sidebarOpen.toggle}
+			aria-controls="sidebarMenu"
+			aria-expanded="false"
+			aria-label="Toggle navigation"
+		>
+			<span class="navbar-toggler-icon" />
+		</button>
+	{/if}
 	<input
 		class="form-control form-control-dark w-100 rounded-0 border-0"
 		type="text"

@@ -1,5 +1,7 @@
 <script lang="ts">
-	import { sidebarOpen } from '../../stores/stores';
+	import { hasSidebar, sidebarOpen } from '../../stores/stores';
+
+	hasSidebar.set(true);
 </script>
 
 <div class="row">

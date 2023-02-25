@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { sidebarOpen } from '../../stores';
+	import { sidebarOpen } from '../../stores/stores';
 </script>
 
 <div class="row">

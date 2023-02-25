@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Logo from '../assets/webchummer_logo.min.svg';
-	import { sidebarOpen } from '../stores';
+	import { sidebarOpen } from '../stores/stores';
 </script>
 
 <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
